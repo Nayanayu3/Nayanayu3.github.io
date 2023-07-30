@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body{
+    background-color: #FCE2B1;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+h3{
+    text-align: center;
+    margin: 0%;
+}
+
+button{
+    width: 25%;
+    height: 150%;
+    font-size: 3.5vw;
+    display: inline-flex;
+    justify-content: center; /* コンテンツを水平方向に中央揃え */
+    align-items: center; /* コンテンツを垂直方向に中央揃え */
+    --padding-x: 1.2em;
+    margin: 1%;
+}
+
+.sima{
+    color: green;
+    background-color: antiquewhite;
+}
+
+.sakura{
+    color: deeppink;
+    background-color: #feeeed;
+}
+
+.jangle{
+    color: darkolivegreen;
+    background-color: lightgreen;
+}
+
+#button{
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+h2{
+    text-align: center;
+}

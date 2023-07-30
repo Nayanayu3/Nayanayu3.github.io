@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sima.css">
+    <meta name="author" content="Masayuki YOSHIDA">
+    <meta name="keywords" content="Minecraft,友人,桜,ジャングル,">
+    <title>友人とマイクラ生活~グラニュー島~</title>
+</head>
+<body>
+    <header>
+        <h1>私たちのマイクラ生活</h1>
+        <div>
+            <table>
+                <tr>
+                    <td class="home"><a href="./index.html">HOME</a></td>
+                    <td class="sakura"><a href="./sakura.html">桜</a></td>
+                    <td class="jangle"><a href="./jangle.html">ジャングル</a></td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <h2>グラニュー島</h2>
+        <h3>MAP</h3>
+        <div id="map"><img src="./madia/map.png" alt="グラニュー島のMAP" ></div>
+        <h3>どこの情報が見たい？</h3>
+        <div>
+            <button type="button" onclick="joho(1)">拠点</button><button type="button" onclick="joho(2)">マンション</button><button type="button" onclick="joho(3)">スノーゴーレム<br>ハウス</button><button type="button" onclick="joho(4)">農場</button><button type="button" onclick="joho(5)">コンビニ</button><button type="button" onclick="joho(6)">新座ミーヤ駅</button><button type="button" onclick="joho(7)">灯台</button>
+        </div>
+        <h3>詳細</h3>
+        <p id="shosai"></p>
+        <div id="shasin"><img src=""></div>
+        <h3>座標</h3>
+        <p id="zahyo">(X,Y,Z)=(~,~,~)</p>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./js/sima.js"></script>
+</body>

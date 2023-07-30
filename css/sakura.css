@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body{
+    background-color: #feeeed;
+}
+header{
+    text-align: center;
+    margin: 0%;
+    padding: 1em;
+    background-color: aliceblue;
+}
+h1{
+    margin:0px;
+}
+
+table{
+    width: 100%;
+    margin: 0%;
+}
+
+td{
+    font-size: larger;
+    width: 33%;
+    border: 1px solid;
+}
+
+a{
+    text-decoration-line: none
+}
+
+.home{
+    background-color: gainsboro;
+}
+.sima{
+    background-color: antiquewhite;
+}
+
+.sakura{
+    background-color: #feeeed;
+}
+
+.jangle{
+    background-color: lightgreen;
+}
+
+main{
+    text-align: center;
+    font-size: 150%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+span{
+    font-size: 1.5em;
+    color: red;
+}
+
+#zahyo:hover{
+    font-size: 1.5em;
+}
